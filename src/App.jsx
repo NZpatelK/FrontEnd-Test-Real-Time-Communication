@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import socketIOClient from 'socket.io-client';
+import './App.css';
 
 const ENDPOINT = "http://127.0.0.1:5000"; // Flask server endpoint
 
